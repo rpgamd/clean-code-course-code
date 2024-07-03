@@ -15,7 +15,7 @@ class Rectangle:
 
     def print_coordinates(self):
         top_right = self.origin.x + self.width
-        bottom_left = self.origin.y + self.height
+        top_left = self.origin.y + self.height
         print('Starting Point (X)): ' + str(self.origin.x))
         print('Starting Point (Y)): ' + str(self.origin.y))
         print('End Point X-Axis (Top Right): ' + str(top_right))
