@@ -8,10 +8,10 @@ class BlogPost:
         self.date_published = date_published
 
 
-def print_blog_post(blog_post):
-    print('Title: ' + blog_post.title)
-    print('Description: ' + blog_post.description)
-    print('Published: ' + blog_post.ymdhm)
+def print_blog_post(self):
+    print('Title: ' + self.title)
+    print('Description: ' + self.description)
+    print('Published: ' + self.ymdhm)
 
 
 title = 'Clean Code Is Great!'
